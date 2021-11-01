@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.link{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+header{
+    color: white;
+    background: rgba(2, 2, 75, 0.952);
+    font-weight: bold;
+    display: flex;
+    margin-top: 10px;
+    min-height: 10px;
+    height: 50px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+.container-1 {
+    width: 80%;
+}
+.container-2 {
+    /* display: inline; */
+    /* float: right; */
+    width: 20%;
+    flex-direction: row;
+    padding-top: 15px;
+    /* height: 500px; */
+    /* padding-bottom: 100px; */
+}
+li a {
+    margin: 5px;
+    font-size: 15px;
+}
+.container-2 a {
+    margin-right: 10px;
+}
+.container-2 button {
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    border: none;
+}
+.container {
+    color: white;
+    background: url(../Desktop/123.jpg);
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    
+}
+.container h1 {
+    font-size: 50px;
+
+}
+.highlight{
+    color:orange;
+    font-weight: bold;
+    font-size: 25x;
+}
+.container button{
+    width: 190px;
+    height: 70px;
+    border: 3px solid white;
+    color:  white;
+    background: rgba(37, 82, 228, 0.384);
+    font-weight: bold;
+    margin: 0 30px;
+}
+.last {
+    color: rgba(6, 61, 240, 0.658);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
