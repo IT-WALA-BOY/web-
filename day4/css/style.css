@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+}
+.container div{
+    border: 2px black solid;
+}
+.A{
+flex: 1;
+}
+.B{
+    flex: 1;
+}
+.C{
+    flex: 3;
+}

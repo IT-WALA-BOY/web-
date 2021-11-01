@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.link{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-left: 00px;
+    padding-right: 700px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    min-height: 70px;
+    height: 50px;
+}
+header{
+    background: rgba(0, 0, 107, 0.815);
+    color: #ffffff;
+    padding-top: 1px;
+    margin-top: 10px;
+    min-height: 10px;
+    font-weight: bold;
+}
+header a{
+    color: white;
+    text-decoration: none;
+     text-transform: uppercase;
+     font-size: 16px;
+}
+.container-2 li{
+    display: inline;
+    float: right;
+    width: 400px;
+    height: 500px;
+    padding-bottom: 100px;
+    
+}
+.container-2 .button1{
+    flex-direction: row;
+  
+}
