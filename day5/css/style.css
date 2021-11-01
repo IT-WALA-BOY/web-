@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    font-weight: bold;
+    color: white;
+
+}
+header{
+    background: url("/images/corona_1.jpg") no-repeat -420px -150px;
+    width: 5500px;
+    height: 500px;
+    padding: 0px;
+   margin-top: -30px;
+}
+header h1{
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 90px;
+   
+margin-left: 70px;
+}
+header h1.m{
+    margin-top: -130px;
+}
+.button1{
+    color: rgb(6, 6, 114);
+    font-weight:lighter;
+    font-size: 22px;
+    margin-left:  80px ;
+    margin-bottom: 40px;
+}
+.container input{
+    height: 30px;
+    border: 1px black solid;
+    margin-top: 30px;
+    margin-left: 99px;
+}
+.container .button2{
+    color: white;
+    background: orange;
+    font-weight:lighter;
+    font-size: 20px;
+    border: none;
+    height: 30px;
+    
+}
+.container{
+    background:url(/images/coronavirus.jpg);
+    height: 100px; ;
+    margin-bottom: 0px;
+
+    
+}
+.container2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-top: 10px;
+    
+    
+}
+.container2 div{
+    
+    padding: 8px;
+}
+.box1{
+    flex: 1;
+}
+.box2{
+    flex: 1;
+    }
+.box3{
+    flex: 1;
+        }
+.box4{
+    flex: 1;
+  }
+img{
+    width: 260px;
+    height: 350px;
+    margin-left: 100px;
+    
+}
+.container2 p{
+    font-weight: lighter;
+}
+.container3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+   .container3 .lo{
+    text-align: center;
+    float: right;
+    margin-top: 60px;
+    margin-right: 80px;
+   } 
+   .container3 p{
+       text-align: center;
+       font-weight: lighter;
+   }
+.container3 .button3{
+    color:white ;
+    background-color:rgb(70, 55, 99) ;
+    font-weight:lighter;
+    font-size: 22px;
+    border: none;
+}
+.last{
+    color: black;
+    background-color: rgb(0, 174, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 250px;
+}
+.last h1{
+    
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 30px;
+
+}
+.last p{
+    margin-left: 30px;
+    margin-top: -20px;
+    font-weight: lighter;
+}
+.last .button5{
+    color:white ;
+    background-color:rgb(0, 174, 255) ;
+    font-weight:lighter;
+    font-size: 22px;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 280px;
+}
+footer{
+    color:black;
+    background: rgb(31, 97, 105);
+    text-align: center;
+    height: 50px;
+    padding-top: 40px;
+}
