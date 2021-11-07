@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+li , a , button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+ header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+     padding: 30px 10%;
+     background-color: white;
+     width: 100vw;
+     height: 10vh;
+     
+ }
+ /* header li{
+     list-style: none;
+     display: inline;
+     padding: 0px 20px;
+     margin-top: 10px;
+ } */
+ .logo{
+    cursor: pointer;
+}
+
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline;
+    padding: 0px 20px;
+}
+.navbar li a{
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover{
+    color: aquamarine;
+}
+.center{
+    background: url(/pexels-nubia-navarro-\(nubikini\)-386009.jpg) ;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 20px;
+}
+.center h1{
+    padding-bottom: 15px;
+}
+.center p{
+    
+    text-align: center;
+    justify-content: center;
+    padding: 0px 260px;
+
+}
+.center .b1{
+    border: none;
+    border-radius: 20px;
+    color: black;
+    height: 50px;
+    width: 120px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.inline {
+    display: flex;
+text-align: center;
+justify-content: center;
+}
+.show .h{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.show1{
+    width: 33.3%;
+    justify-content: space-between;
+}
+.show1 p{
+    padding: 10px 80px;
+}
+.info{
+    display: flex;
+    padding: 80px 60px;
+    justify-content: space-evenly;
+    text-align: center;
+    background: lightgray;
+    
+
+}
+.info h1{
+    padding-left: 80px;
+    text-align: start;
+} 
+.info img{
+    width:280px;
+    height: 140px;
+    /* margin-left: -400px; */
+}
+.info p{
+    width: 400px;
+    padding-left: 80px;
+    text-align: start;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+.detail img{
+    width: 100px;
+}
+.detail h2{
+    text-align: start;
+    padding-left: 20px;
+}
+.detail p{
+    text-align: start;
+    padding-left: 20px;
+    width: 400px;
+}
+.search{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgb(17, 175, 88);
+    height: 10vh;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.search input{
+    border: 1px solid white;
+    border-radius: 6px;
+    background: rgba(255,255,255,.2);
+    color: white;
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+}
+.search button{
+    border: none;
+    border-radius:5px;
+    height: 35px;
+    width: 100px;
+    color: rgb(17, 175, 88);
+    font-weight: 600;
+    margin-left: 20px;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+.last{
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    /* justify-content: center; */
+ 
+}
+.last .bar{
+    text-align: start;
+}
+.bar{
+    width: 33.3%;
+}
+.bar p{
+    padding: 7px 80px;
+}
+.bar h2{
+    padding: 7px 80px;
+}
+.last ul li{
+    list-style: none;
+    color: black;
+    padding: 3px 80px;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 6vh;
+    padding-top: 10px;
+}
