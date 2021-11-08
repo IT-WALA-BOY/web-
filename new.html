@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+li , a , button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+ header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    
+     padding: 30px 10%;
+     background-color: white;
+     width: 100vw;
+     height: 10vh;
+     
+ }
+ /* header li{
+     list-style: none;
+     display: inline;
+     padding: 0px 20px;
+     margin-top: 10px;
+ } */
+ .logo{
+    cursor: pointer;
+}
+
+.navbar{
+    list-style: none;
+}
+.navbar li{
+    display: inline;
+    padding: 0px 20px;
+}
+.navbar li a{
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+.navbar li a:hover{
+    color: aquamarine;
+}
+.center{
+    background: url(/pexels-nubia-navarro-\(nubikini\)-386009.jpg) ;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 20px;
+}
+.center h1{
+    padding-bottom: 15px;
+}
+.center p{
+    
+    text-align: center;
+    justify-content: center;
+    padding: 0px 260px;
+
+}
+.center .b1{
+    border: none;
+    border-radius: 20px;
+    color: black;
+    height: 50px;
+    width: 120px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.inline {
+    display: flex;
+text-align: center;
+justify-content: center;
+}
+.show .h{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+.show1{
+    width: 33.3%;
+    justify-content: space-between;
+}
+.show1 p{
+    padding: 10px 80px;
+}
+.info{
+    display: flex;
+    padding: 80px 60px;
+    justify-content: space-evenly;
+    text-align: center;
+    background: lightgray;
+    
+
+}
+.info h1{
+    padding-left: 80px;
+    text-align: start;
+} 
+.info img{
+    width:280px;
+    height: 140px;
+    /* margin-left: -400px; */
+}
+.info p{
+    width: 400px;
+    padding-left: 80px;
+    text-align: start;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+.detail img{
+    width: 100px;
+}
+.detail h2{
+    text-align: start;
+    padding-left: 20px;
+}
+.detail p{
+    text-align: start;
+    padding-left: 20px;
+    width: 400px;
+}
+.search{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgb(17, 175, 88);
+    height: 10vh;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.search input{
+    border: 1px solid white;
+    border-radius: 6px;
+    background: rgba(255,255,255,.2);
+    color: white;
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+}
+.search button{
+    border: none;
+    border-radius:5px;
+    height: 35px;
+    width: 100px;
+    color: rgb(17, 175, 88);
+    font-weight: 600;
+    margin-left: 20px;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+.last{
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    /* justify-content: center; */
+ 
+}
+.last .bar{
+    text-align: start;
+}
+.bar{
+    width: 33.3%;
+}
+.bar p{
+    padding: 7px 80px;
+}
+.bar h2{
+    padding: 7px 80px;
+}
+.last ul li{
+    list-style: none;
+    color: black;
+    padding: 3px 80px;
+}
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    height: 6vh;
+    padding-top: 10px;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <img class="logo" src="/tesla_logo_icon_181279.png" alt="">
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PRODUCT</a></li>
+                <li><a href="#">PRICING</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="center">
+        <h1>WE HELP YOUR BUSSINES</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum sed atque ratione dicta eius dolores hic quo
+            culpa quisquam! Dolore placeat provident veritatis hic labore ab repellendus ea quisquam officia?
+
+        </p>
+        <button class="b1">Learn More</button>
+    </div>
+    <div class="show">
+        <h1 class="h">OUR PRODUCT</h1>
+        <div class="inline">
+            <div class="show1">
+                <img src="/tesla_logo_icon_181279.png" alt="">
+                <h2>SEO</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nesciunt?
+
+                </P>
+
+            </div>
+            <div class="show1">
+                <img src="/tesla_logo_icon_181279.png" alt="">
+                <h2>BRANDING</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nesciunt?
+
+                </P>
+
+            </div>
+            <div class="show1">
+                <img src="/tesla_logo_icon_181279.png" alt="">
+                <h2>LOGO</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nesciunt?
+
+                </P>
+
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="about">
+            <h1>ABOUT US</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum saepe aliquam beatae esse veritatis
+                corrupti eius sint earum modi, praesentium laboriosam magnam.
+
+            </p>
+        </div>
+        <div class="pic">
+            <img src="/pexels-nubia-navarro-(nubikini)-386009.jpg" alt="">
+        </div>
+    </div>
+    <div class="detail">
+        <img src="/616lonkhkaL._AC_SX466_.jpg" alt="">
+        <div class="data">
+            <h2>FROZEN PRINCESS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, suscipit! Vel dolor cupiditate
+                aliquid quasi a non est deleniti minus!
+
+            </p>
+        </div>
+    </div>
+    <div class="search">
+        <input type="email" placeholder="Email ID">
+        <button>Subscribe</button>
+    </div>
+
+    <div class="last">
+        <div class="bar">
+
+            <h2>About</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nesciunt?
+
+            </P>
+
+        </div>
+        <div class="bar">
+
+            <h2>Help</h2>
+            <ul>
+                <li>HOME</li>
+                <li>PRODUCT</li>
+                <li>HELP</li>
+            </ul>
+
+        </div>
+        <div class="bar">
+
+            <h2>contact</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nesciunt?
+
+            </P>
+
+        </div>
+    </div>
+    <footer>COPYRIGHT &copy; since 2021 BY AL QAFILA</footer>
+</body>
+
+</html>

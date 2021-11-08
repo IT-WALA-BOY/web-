@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            background-color: white;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        header {
+            background-color: rgb(69, 177, 219);
+            /* margin-top: 0px; */
+            padding-top: 10px;
+            margin: 0px;
+            height: 650px;
+            width: 1340px;
+        }
+        
+        .main h1 {
+            color: white;
+            font-weight: bolder;
+            font-size: 50px;
+            text-align: center;
+            margin-top: 10px;
+            padding-bottom: 40px;
+        }
+        
+        .navbar {
+            text-decoration: none;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            /* flex-direction: row; */
+            background-color: lightgray;
+            width: 950px;
+            height: 45px;
+            margin-left: 170px;
+            box-sizing: border-box;
+            border: white 1px solid;
+            border-radius: 8px;
+            /* /* justify-content: space-between; * */
+            margin-top: -20px;
+        }
+        
+        header ul :hover {
+            color: orangered;
+        }
+        
+        .navbar ul :active {
+            color: pink;
+        }
+        
+        .navbar li {
+            list-style: none;
+            display: inline;
+            text-align: center;
+            padding: 0px;
+            margin-left: 40px;
+        }
+        
+        header input {
+            background-color: white;
+            margin-left: 200px;
+            border: 1px white solid;
+            border-radius: 5px;
+        }
+        
+        header button {
+            background-color: rgb(39, 31, 31);
+            color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-left: 5px;
+        }
+        
+        .t1 {
+            background: url(bg.jpg) no-repeat;
+            width: 889px;
+            height: 300px;
+            border: 8px solid white;
+            border-radius: 8px;
+            margin-left: 190px;
+            text-align: right;
+        }
+        
+        .t1 h1 {
+            padding-right: 30px;
+            padding-top: 30px;
+        }
+        
+        .t1 p {
+            /* text-align: right; */
+            float: right;
+            width: 330px;
+            padding-right: 30px;
+            margin-top: -10px;
+        }
+        
+        .a {
+            border: 4px rgb(69, 177, 219);
+            border-radius: 9px;
+            background: rgba(255, 255, 255, 0.2);
+            width: 350px;
+            height: 150px;
+            margin-left: 480px;
+            margin-top: 60px;
+        }
+        /* img {
+            width: 200px;
+            height: 100px;
+            padding-left: 200px;
+        } */
+        
+        button {
+            color: white;
+            background: rgb(69, 177, 219);
+            width: 35px;
+            height: 30px;
+            border: none;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 15px;
+            margin-left: 380px;
+        }
+        
+        .content {
+            display: flex;
+            width: 1340px;
+            height: 500px;
+            padding: 20px 85px;
+            border-top: 35px solid rgb(98, 192, 230);
+        }
+        
+        .left {
+            width: 75%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-right: 20px;
+        }
+        
+        .up {
+            height: 50%;
+            width: 100%;
+            padding: 0px 6px;
+            /* display: flex; */
+            /* flex-direction: column; */
+            border-bottom: 1px solid black;
+        }
+        
+        .align {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        button {
+            float: right;
+            width: 100px;
+        }
+        
+        .align p {
+            margin-left: 20px;
+        }
+        
+        .up_img {
+            width: 120px;
+            height: 120px;
+        }
+        
+        .down {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .box-1 {
+            width: 50%;
+        }
+        
+        .box-2 {
+            width: 50%;
+            border-left: 1px solid gray;
+            padding-left: 25px;
+        }
+        
+        .alpha h3 {
+            color: rgb(66, 170, 170);
+            margin-bottom: 15px;
+        }
+        
+        .alpha p {
+            margin-bottom: 15px;
+        }
+        
+        .alpha ul {
+            color: rgb(66, 170, 170);
+        }
+        
+        .right {
+            width: 25%;
+            height: 100%;
+        }
+        
+        .right h3 {
+            color: rgb(66, 170, 170);
+            font-size: 25px;
+            font-weight: 400;
+            padding-bottom: 20px;
+        }
+        
+        .lorem {
+            padding-bottom: 12px;
+        }
+        
+        .lorem h5 {
+            color: rgb(66, 170, 170);
+        }
+        
+        .b img {
+            width: 140px;
+            margin-right: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="main">
+            <h1>HOLIDAY</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li>MENU</li>
+                <li>HOME</li>
+                <li>SUPPORT</li>
+                <li>HELP</li>
+                <li>JOIN</li>
+            </ul>
+
+            <input type="text" placeholder="Enter Text Here" />
+            <button>GO</button>
+        </div>
+
+        <div class="t1">
+            <div class="a">
+                <h1>Ethreum Flex Spot</h1>
+                <p>
+                    Lorem ipsum dolor we have to go sit amet consectetur adipisicing elit. Odit, dolores.
+                </p>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    
+    <div class="content">
+        <div class="left">
+            <div class="up">
+                <h2>HOLIDAY- Free CSS Template</h2>
+                <div class="align">
+                    <img class="up_img" src="bg.jpg" alt="up" />
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eos ipsum minima mollitia ad totam, nulla inventore accusantium reprehenderit molestiae et fugiat at illum vitae illo earum rerum? Animi corporis exercitationem incidunt. Architecto
+                        eum quia possimus mollitia magni consectetur sint. Temporibus aliquam, esse laboriosam eligendi nam rem necessitatibus officia aperiam?
+                    </p>
+                </div>
+                <button>Read More</button>
+            </div>
+            <div class="down">
+                <div class="box-1 alpha">
+                    <h3>Speciak Package 1</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iure tempora ea ipsa nihil fugiat?
+                    </p>
+                    <ul>
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+                <div class="box-2 alpha">
+                    <h3>Speciak Package 1</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iure tempora ea ipsa nihil fugiat?
+                    </p>
+                    <ul>
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <h3>Destinations</h3>
+            <div class="lorem">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repudiandae?
+                </p>
+            </div>
+            <div class="lorem">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repudiandae?
+                </p>
+            </div>
+            <div class="lorem">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repudiandae?
+                </p>
+            </div>
+            <div class="lorem">
+                <h5>Lorem ipsum dolor sit.</h5>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repudiandae?
+                </p>
+            </div>
+            <div class="b">
+                <img src="bg.jpg" alt="" />
+                <img src="bg.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
