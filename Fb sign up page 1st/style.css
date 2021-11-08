@@ -1,0 +1,125 @@
+/* align items ko center karna ka bad uski width ADJUST KARNI HA SARA CENTER MAIN KHUDD AA JAYA AG */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+    height: 100vh;
+    background-color: rgb(232, 237, 238);
+
+}
+.main .im{
+    width: 270px;
+    margin: 0;
+    padding: 0;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 10px 20px 5px rgb(177, 198, 202);
+    padding: 20px;
+
+}
+.main_heading {
+   
+    
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    
+    /* width: 120%; */
+}
+
+.main_heading h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+.main_heading h6 {
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 61vh;
+    border-bottom: 1px solid #eee;
+
+}
+.email input,
+.password input,
+.name input{
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 7px;
+    padding-left: 5px;
+    margin-top: 10px;
+    
+}
+.email input,
+.password input{
+    margin-top: 5px;
+    width: 357px;
+}
+.birthday{
+    color:gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.birthday select {
+    width: 116px;
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 7px;
+    padding-left: 5px;
+}
+.gender{
+    display: flex;
+    /* padding: 10px; */
+}
+.mmm{
+    color: gray;
+}
+.gender .male{
+    border: 1px solid #eee;
+    font-size: large;
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.para{
+    /* width: 370px; */
+    font-size: 11px;
+    color: gray;
+    padding: 10px;
+}
+
+button{
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background: rgb(39, 182, 82);
+    margin-left: 100px;
+    margin-top: 20px;
+}
