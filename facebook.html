@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <title>Sign up For facebook | Facebook</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: helvetica;
+    }
+    
+    .main {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(232, 237, 238);
+        flex-direction: column;
+    }
+    
+    .inner {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        height: 80%;
+        width: 400px;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 5px 10px 20px 5px rgb(177, 198, 202);
+        padding: 0px 7px;
+    }
+    
+    .facebook_image {
+        width: 270px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .main_heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0px;
+        border-bottom: 1px solid gray;
+    }
+    
+    .main_heading h3 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .main_heading h6 {
+        font-size: 10px;
+        color: gray;
+    }
+    
+    .name {
+        display: flex;
+        height: 45px;
+        margin-top: 10px;
+        /* width: 80%; */
+        /* justify-content: space-evenly; */
+    }
+    
+    .name input {
+        height: 40px;
+        padding: 0 9px;
+        margin: 0 2px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #eee;
+    }
+    
+    .mbl {
+        margin-bottom: 3px;
+        height: 40px;
+    }
+    
+    .mbl input {
+        height: 40px;
+        padding: 0px 10px;
+        width: 385px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #eee;
+    }
+    
+    .lbl {
+        font-size: 12px;
+        padding-left: 3px;
+    }
+    
+    .birth {
+        margin-bottom: 3px;
+        height: 40px;
+    }
+    
+    .birth select {
+        width: 120px;
+        margin: 0px 2px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #eee;
+        height: 35px;
+        color: rgb(20, 20, 20);
+    }
+    
+    .gndr {
+        display: flex;
+        justify-content: center;
+        width: 383px;
+        align-items: center;
+        height: 40px;
+    }
+    
+    .gender {
+        width: 120px;
+        margin: 0px 3px;
+        border-radius: 4px;
+        outline: none;
+        border: 1px solid #eee;
+        height: 35px;
+        color: rgb(20, 20, 20);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px;
+    }
+    
+    .para {
+        padding: 5px 15px;
+        font-size: 10px;
+        color: gray;
+    }
+    
+    button {
+        background-color: rgb(30, 180, 30);
+        border: none;
+        color: #fff;
+        padding: 7px 59px;
+        font-size: 1rem;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    .already_account {
+        margin-top: 20px;
+        color: royalblue;
+        font-weight: 200;
+        
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lbl{
+        color:gray
+    }
+</style>
+
+<body>
+    <div class="main">
+        <img class="facebook_image" src="facebook.svg" alt="" />
+        <div class="inner">
+            <div class="main_heading">
+                <h3>Create a new account</h3>
+                <h6>It's quick and easy</h6>
+            </div>
+        <!-- <?php $conn=mysqli_connect("localhost","root","","fbdb")or die("connection unsuccesfull "); -->
+        
+    <!-- $gnder='';
+
+            if(isset($_POST['submit'])){
+                $fnme=$_POST["f_nme"];
+                $snme=$_POST['s_nme'];
+                $mbl=$_POST['mbl'];
+                $pwd=$_POST['pwd'];
+                // $birthd=$_POST['date'];
+                // $birthm=$_POST['month'];
+                // $birthy=$_POST['year'];
+                $dob=$_POST['year'] . '-' . $_POST['month'] . '-' . $_POST['day'];
+                // $timestamp=mktime(0,0,0,$_POST['month'],$_POST['day'],$_POST['year']);
+                // $dob=date('Y-m-d',$timestamp);
+                $gender=$_POST['gender'];
+                $qry=mysqli_query($conn,"insert into fb_table(first_nme,sur_nme,mbl_email,password,dob,gender)
+                values('$fnme','$snme','$mbl','$pwd','$dob','$gender')");
+                    
+            }
+            
+        ?> -->
+            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+                <div class="name">
+                    <input type="text" name="f_nme" placeholder="First name" />
+                    <input type="text" name="s_nme" placeholder="Surname" />
+                </div>
+                <div class="mbl">
+                    <input type="text" name="mbl" placeholder="Mobile number or email address" />
+                </div>
+                <div  class="mbl">
+                    <input type="password" name="pwd" placeholder="New password" />
+                </div>
+                <label class="lbl" for="">Date of birth <abbr title="Click for more information"><i class="fa fa-question-circle"></i></abbr></label>
+                <div class="birth">
+                    <select name="day" >
+                    <!-- <?php    
+                    for($j=1;$j<31;$j++){
+                        echo"<option>$j</option>";
+                    }
+                    ?> -->
+            </select>
+                    <select name="month" type="date">
+                    <!-- <?php    
+                    // for($j=1;$j<13;$j++){
+                    //     echo"<option>$j</option>";
+                    // }
+                    ?> -->
+              <option value="Jan">Jan</option>
+              <option value="Feb">Feb</option>
+              <option value="Mar">Mar</option>
+              <option value="Apr">Apr</option>
+              <option value="May">May</option>
+              <option value="Jun">Jun</option>
+              <option value="Jun">Jul</option>
+              <option value="Jun">Aug</option>
+              <option value="Sep">Sep</option>
+              <option value="Oct">Oct</option>
+              <option value="Nov">Nov</option>
+              <option value="Dec">Dec</option>
+            </select>
+                    <select name="year">
+              <!-- <?php
+              for ($i=1905; $i<=2021; $i++){
+                  echo"<option>$i</option>";
+              }
+              ?> -->
+            </select>
+                </div>
+                <label class="lbl" for="Gender">Gender <abbr title="Click for more information"><i class="fa fa-question-circle"></i></abbr></label>
+                <div class="gndr" >
+
+                    <div class="gender">
+                        <label for="">Female</label>
+                        <input  name="gender" type="radio" value="Female" />
+                    </div>
+                    <div class="gender">
+                        <label for="">Male</label>
+                        <input name="gender" type="radio" value="Male"/>
+                    </div>
+                    <div class="gender">
+                        <label for="">Custom</label>
+                        <input name="gender" type="radio" value="Custom"/>
+                    </div>
+
+                </div>
+                <div>
+                    <p class="para">
+                        By clicking Sign Up, You agree to our terms, Data policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.
+                    </p>
+                </div>
+                <div class="button">
+    
+                    <button type="Submit" name="submit">Sign Up</button>
+                </div>
+            </form>
+
+            <h3 class="already_account">Aready have an account?</h3>
+        </div>
+        
+    </div>
+    <!-- <?php
+
+    if($qry){
+                        echo"New Sign up data inserted succesfullly";
+                    }
+                    else{
+                        echo"new account cannot created".mysqli_error($conn);
+                    }
+
+                    ?> -->
+                    </body>
+</html>
